@@ -264,7 +264,7 @@ function Count(_date1, _name, _status) {
         const board = document.querySelector("#" + data.id);
         const ctx = board.getContext("2d");
         const chara = new Image();
-        chara.src = "/img/checknow1.png";
+        chara.src = "img/checknow1.png";
         chara.onload = () => {
           ctx.drawImage(chara, 0, 0);  // ★ここを変更★
         };
